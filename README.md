@@ -25,5 +25,15 @@ Contenido
 
 
 
+Imparten: 
+
+Sergio Cuauhtémoc Gaxiola Robles L. 
+
+Julio Cesar Martínez Sánchez 
+
+Nina Castro Méndez
+
+
+
 
 
