@@ -7,6 +7,7 @@ Objetivo del taller.
 Introducir al participante en el uso del paquete estadístico R para la elaboración de indicadores seleccionados de la Encuesta Nacional de Ocupación y Empleo. 
 
 
+
 Contenido
 
 1. Introducción a R. 
