@@ -3,29 +3,31 @@
 29 de octubre 2015, El Colegio de México
 
 
-Objetivo del taller. 
+## Objetivo del taller. 
+
+
 Introducir al participante en el uso del paquete estadístico R para la elaboración de indicadores seleccionados de la Encuesta Nacional de Ocupación y Empleo. 
 
 
 
-Contenido
+## Contenido
 
-1. Introducción a R. 
++  Introducción a R. 
 
-2. Importar - exportar bases de datos de SPSS, STATA, EXCEL... a R. 
++  Importar - exportar bases de datos de SPSS, STATA, EXCEL... a R. 
 
-3. Conocer la ENOE desde R (etiquetar, recodificar y seleccionar casos). 
++  Conocer la ENOE desde R (etiquetar, recodificar y seleccionar casos). 
 
-4. Tabulados y Gráficas en R. 
++  Tabulados y Gráficas en R. 
 
-5. Uso data frame con la ENOE.
++  Uso data frame con la ENOE.
 
-6. Replica de indicadores seleccionados de la ENOE en R.
-
-
++  Replica de indicadores seleccionados de la ENOE en R.
 
 
-Imparten: 
+
+
+## Imparten: 
 
 Sergio Cuauhtémoc Gaxiola Robles L. 
 
