@@ -1,14 +1,13 @@
 ####################################################################################################
 
-# 3. Conocer la ENOE desde R (etiquetar, recodificar y seleccionar casos).
-# 4. Tabulados
+#  Conocer la ENOE desde R (etiquetar, recodificar y seleccionar casos).
 
 ####################################################################################################
 
 
 # Todas las bases de datos de la ENOE pueden ser obtenidas en la pagina de internet del INEGI.
-# R tiene varios metodos que tienen el mismo resultado, por lo cual se nombrar como M1, M2,...,Mn
-# cuando exista mas de un metodo para hacer lo mismo.
+# R tiene varios metodos que tienen el mismo resultado, por lo cual se anexan varios ejemplos
+# que realizan el mismo proceso.
 # Al final de cada seccion se encuentran algunas ligas que pueden servir como referencia para cada
 # uno de los temas
 
@@ -22,25 +21,23 @@
 #0. Consideraciones iniciales
 
       #0.1  Instalar los paquete necesarios 
-      install.packages(c("foreign","devtools","data.table","questionr","survey","base","car"))
-      install.packages("dplyr")
+            install.packages(c("foreign","devtools","data.table","questionr","survey","base","car"))
+            install.packages("dplyr")
       #0.2  Cargar las librerias que se van a utilizar
-      library(data.table)
-      library(foreign)
-      library(devtools)
-      library(questionr)
-      library(survey)
-      library(base)
-      #library(car)
-      #library(dplyr)
+            library(data.table)
+            library(foreign)
+            library(devtools)
+            library(questionr)
+            library(survey)
+            library(base)
 
       #0.3  Limpiar el entorno de trabajo
-      rm(list = ls())
+            rm(list = ls())
       
       #Ctrl + L = Limpia la consola  
       
-      #0.4  Definir el directorio raiz de las bases de datos
-      setwd("C:/JC/Package/2/Bases")
+      #0.4  Definir el directorio raiz de las bases de datos (Hay que utilizar \\ ó / para definir la ruta
+            setwd("C:/JC/Package/2/Bases")
       
       #0.5  Cargar las Bases de datos
       SDEMT215<-data.frame(read.dbf("SDEMT215.dbf"))
@@ -121,11 +118,11 @@
      
             #Metodo 1
             attach(SDEMT215)
-            SDEMT215$EDAD11[as.numeric(EDA) >= 0 & as.numeric(EDA)<=10] <- 1
-            SDEMT215$EDAD11[as.numeric(EDA) >= 11 & as.numeric(EDA)<=20] <- 2
-            SDEMT215$EDAD11[as.numeric(EDA) >= 21 & as.numeric(EDA)<=30] <- 3
-            SDEMT215$EDAD11[as.numeric(EDA) >= 31 & as.numeric(EDA)<=40] <- 4
-            SDEMT215$EDAD11[as.numeric(EDA) >= 41] <- 5          
+                        SDEMT215$EDAD11[as.numeric(EDA) >= 0 & as.numeric(EDA)<=10] <- 1
+                        SDEMT215$EDAD11[as.numeric(EDA) >= 11 & as.numeric(EDA)<=20] <- 2
+                        SDEMT215$EDAD11[as.numeric(EDA) >= 21 & as.numeric(EDA)<=30] <- 3
+                        SDEMT215$EDAD11[as.numeric(EDA) >= 31 & as.numeric(EDA)<=40] <- 4
+                        SDEMT215$EDAD11[as.numeric(EDA) >= 41] <- 5          
             detach(SDEMT215) 
             
             #Metodo3
@@ -177,10 +174,6 @@
             newdata2 <- SDEMT215[,!var0]
             
       #5.3 Seleccionar casos          
-            #Funciona?
-            newdata3 <- SDEMT215[ which(SDEMT215$SEXO=='Hombre'& SDEMT215$EDA <18), ]
-      
-            #(Si corre)
             newdata3 <- SDEMT215[ which(SDEMT215$SEXO=='Hombre'& as.numeric(SDEMT215$EDA) <18), ]
 
             # Ejemplo de un filtro necesario en la ENOE
