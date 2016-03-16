@@ -39,5 +39,7 @@ Nina Castro Méndez
 
 #### Descarga
 
-Si desea descargar el curso para poder replicar el ejercicio, 
+Si desea descargar el curso para poder replicar los ejercicios, basta con darle click en el botón _Download ZIP_ y guardar los archivos en alguna carpeta.
+
+![alt tag](https://cloud.githubusercontent.com/assets/13545121/13798539/406b5856-eadd-11e5-9342-365ec2a19b01.jpg)
 
