@@ -48,6 +48,3 @@ Si desea descargar el curso para poder replicar los ejercicios, basta con darle 
 
 
 
-####  Contacto
-
-jcms2665@gmail.com
