@@ -3,14 +3,14 @@
 29 de octubre 2015, El Colegio de México
 
 
-## Objetivo del taller. 
+#### Objetivo del taller. 
 
 
 Introducir al participante en el uso del paquete estadístico R para la elaboración de indicadores seleccionados de la Encuesta Nacional de Ocupación y Empleo. 
 
 
 
-## Contenido
+#### Contenido
 
 +  Introducción a R. 
 
@@ -27,7 +27,7 @@ Introducir al participante en el uso del paquete estadístico R para la elaborac
 
 
 
-## Imparten: 
+#### Imparten: 
 
 Sergio Cuauhtémoc Gaxiola Robles L. 
 
@@ -37,5 +37,7 @@ Nina Castro Méndez
 
 
 
+#### Descarga
 
+Si desea descargar el curso para poder replicar el ejercicio, 
 
