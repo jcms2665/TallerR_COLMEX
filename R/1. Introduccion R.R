@@ -1,29 +1,27 @@
 
-#=======================================
+#=================================================================================
 
-# Introducción a R
+# 1. Introducción a R
 
-# El objetivo de este módulo es proporcionar una breve al entorno de R
-# y sus características más básicas.
+# Objetivo: En este módulo se proporciona una breve introducción al entorno de R
+#           y a sus características más básicas.
 
+# Contenido
 
-
-#0. Limpiar el espacio de trabajo
-#1. Librerías
-#2. Directorio de trabajo
-#3. R como calculadora
-#4. Tipos de datos
-#5. Conversión de datos
-#6. Vectores
-#7. Listas
-#8. Matrices
-#9. Missing values
+#0.  Limpiar el espacio de trabajo
+#1.  Librerías
+#2.  Directorio de trabajo
+#3.  R como calculadora
+#4.  Tipos de datos
+#5.  Conversión de datos
+#6.  Vectores
+#7.  Listas
+#8.  Matrices
+#9.  Missing values
 #10. Data Frame
 
 
-
-
-#=======================================
+#=================================================================================
 
 
 ###LIMPIAR ESPACIO DE TRABAJO
