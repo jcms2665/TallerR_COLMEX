@@ -1,6 +1,29 @@
-#############################
-############################# INTRODUCCI??N A R CON ENOE
-#############################
+
+#=======================================
+
+# Introducción a R
+
+# El objetivo de este módulo es proporcionar una breve al entorno de R
+# y sus características más básicas.
+
+
+
+#0. Limpiar el espacio de trabajo
+#1. Librerías
+#2. Directorio de trabajo
+#3. R como calculadora
+#4. Tipos de datos
+#5. Conversión de datos
+#6. Vectores
+#7. Listas
+#8. Matrices
+#9. Missing values
+#10. Data Frame
+
+
+
+
+#=======================================
 
 
 ###LIMPIAR ESPACIO DE TRABAJO
@@ -40,9 +63,9 @@ list.files()      # Lista de archivos
 ### DATA TYPES
 c('a','b','c')  # Caracter
 1:7             # Entero
-40<80           # Valor l??gico
-2+2 == 5        # Valor l??gico
-T == TRUE       # T expresi??n corta de verdadero
+40<80           # Valor logico
+2+2 == 5        # Valor logico
+T == TRUE       # T expresion corta de verdadero
 
 x <- 24         # Asignaci??n de valor 24 a la variable x para su uso posterior (OBJETO)
 x/2             # Uso posterior de variable u objeto x
